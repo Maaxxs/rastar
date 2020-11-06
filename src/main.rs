@@ -82,7 +82,7 @@ fn main() {
     }
 
     // Read [amount X amount] matrix
-    let mut matrix: Vec<Vec<u8>> = Vec::with_capacity(amount as usize);
+    let mut matrix: Vec<Vec<u8>> = Vec::with_capacity(amount);
     for _ in 0..amount {
         matrix.push(
             content
